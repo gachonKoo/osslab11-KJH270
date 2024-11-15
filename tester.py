@@ -1,10 +1,11 @@
 import geo.utils as utils
+import sys
 
-a,b = 3,4
+
+a,b,r = map(int,sys.stdin.readline().split())
 c = utils.pythagoras(a,b)
 print("c = ",c)
 
-r = 10
 area = utils.circle(r)
 print("area = ",area)
 
